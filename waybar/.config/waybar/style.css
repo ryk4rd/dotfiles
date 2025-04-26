@@ -1,0 +1,63 @@
+/*
+You can type here any CSS rule recognized by GTK+.
+You can temporarily disable this custom CSS by clicking on the “Pause” button above.
+
+Changes are applied instantly and globally, for the whole application.
+*/
+
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "JetBrains Mono", sans-serif;
+    font-size: 15px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: rgba(43, 48, 59, 0.5);
+    color: white;
+}
+
+tooltip {
+    background: rgba(43, 48, 59, 0.5);
+    border: 1px solid rgba(100, 114, 125, 0.5);
+}
+
+#workspaces button {
+    padding: 0 5px;
+    background: transparent;
+    color: white;
+    border-bottom: 3px solid transparent;
+}
+
+#workspaces button.active {
+    background: #64727D;
+}
+
+#mode,
+#clock,
+#battery {
+    padding: 0 10px;
+    background: transparent;
+}
+
+#tray {
+    padding: 0 10px;
+}
+
+
+#mode {
+    background: #64727D;
+    border-bottom: 3px solid white;
+}
+
+#clock {}
+
+
+@keyframes blink {
+    to {
+        background-color: #ffffff;
+        color: black;
+    }
+}
+

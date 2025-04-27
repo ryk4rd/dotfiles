@@ -24,3 +24,8 @@ alias ts="tmux kill-server"
 
 bind '"\C-f":"tmux-sessionizer\n"'
 bind '"\C-t":"tmux a\n"'
+
+# for steam UI scaling
+export STEAM_FORCE_DESKTOPUI_SCALING=1.25
+
+set -o vi

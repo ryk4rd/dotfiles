@@ -28,3 +28,5 @@ alias neofetch="fastfetch"
 
 alias ls="eza --icons"
 alias ll="eza --icons -l"
+
+export PATH="$PATH:~/.config/composer/vendor/bin"

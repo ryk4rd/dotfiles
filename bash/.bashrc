@@ -21,7 +21,7 @@ bind '"\C-f":"tmux-sessionizer\n"'
 bind '"\C-t":"tmux a\n"'
 
 # bash vi mode
-set -o vi
+#set -o vi
 
 alias fastfetch="fastfetch -c neofetch"
 alias neofetch="fastfetch"

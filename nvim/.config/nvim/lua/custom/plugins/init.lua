@@ -4,6 +4,13 @@
 -- See the kickstart.nvim README for more information
 return {
   {
+    'nvim-java/nvim-java',
+    config = function()
+      require('java').setup()
+      require('lspconfig').jdtls.setup {}
+    end,
+  },
+  {
     'supermaven-inc/supermaven-nvim',
     config = function()
       require('supermaven-nvim').setup {

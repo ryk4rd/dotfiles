@@ -23,8 +23,6 @@ bind '"\C-t":"tmux a\n"'
 # bash vi mode
 #set -o vi
 
-alias fastfetch="fastfetch -c neofetch"
-alias neofetch="fastfetch"
 
 alias ls="eza --icons"
 alias ll="eza --icons -l"

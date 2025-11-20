@@ -4,13 +4,6 @@
 -- See the kickstart.nvim README for more information
 return {
   {
-    'nvim-java/nvim-java',
-    config = function()
-      require('java').setup()
-      require('lspconfig').jdtls.setup {}
-    end,
-  },
-  {
     'olimorris/codecompanion.nvim',
     opts = {},
     dependencies = {

@@ -26,5 +26,6 @@ bind '"\C-t":"tmux a\n"'
 
 alias ls="eza --icons"
 alias ll="eza --icons -l"
+alias neofetch="fastfetch --config neofetch"
 
 export PATH="$PATH:~/.config/composer/vendor/bin"

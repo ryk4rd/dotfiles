@@ -29,3 +29,6 @@ alias ll="eza --icons -l"
 alias neofetch="fastfetch --config neofetch"
 
 export PATH="$PATH:~/.config/composer/vendor/bin"
+
+export MAKEOPTS='-j12'
+export MAKEFLAGS='-j12'
